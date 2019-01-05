@@ -12,4 +12,18 @@ $(document).ready(function() {
         }
     })
 
+    $('input').keypress(function(e) {
+        if(e.keyCode == 13){
+            var passwordDiv = $(this).parent();
+            if(passwordDiv.children('input').val()=='twinkle') {
+                window.location = 'a-portfolio/portfolio.html';
+            }else{
+                passwordDiv.addClass('false');
+                setTimeout(function() {
+                    passwordDiv.removeClass('false');
+                }, 2500);
+            }
+        }
+    })
+
 });
