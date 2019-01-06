@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.password .unlock').click(function(e) {
         var passwordDiv = $(this).parent();
         if(passwordDiv.children('input').val()=='twinkle') {
-            window.location = 'a-portfolio/portfolio.html';
+            window.location = '../a-twinkle/twinkle.html';
         }else{
             passwordDiv.addClass('false');
             setTimeout(function() {
@@ -16,7 +16,7 @@ $(document).ready(function() {
         if(e.keyCode == 13){
             var passwordDiv = $(this).parent();
             if(passwordDiv.children('input').val()=='twinkle') {
-                window.location = 'a-portfolio/portfolio.html';
+                window.location = '../a-twinkle/twinkle.html';
             }else{
                 passwordDiv.addClass('false');
                 setTimeout(function() {
