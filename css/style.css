@@ -35,7 +35,8 @@ h6 {
   border-bottom: 1px solid #e7e7e7;
 }
 .banner {
-
+  padding-left: 0px;
+  padding-right: 0px;
 }
 footer {
     padding: 50px 0;
